@@ -65,3 +65,10 @@ aws --endpoint-url=http://localhost:4566 lambda delete-function \
   --function-name hello-lambda \
   --region us-east-1
 ```
+
+# Executar a invocação da função em lambda
+Vá até a pasta cmd
+
+```go
+go run main.go
+```
