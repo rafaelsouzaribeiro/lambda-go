@@ -15,6 +15,12 @@ Adicionar usuário ao grupo docker:
 sudo usermod -aG docker $USER
 newgrp docker
 ```
+
+## Subir o LocalStack
+```bash
+docker compose up -d
+```
+
 ## aws configure
 
 execute: aws configure
@@ -34,11 +40,6 @@ AWS Access Key ID [None]: nome_perfil_novo
 AWS Secret Access Key [None]: senha_perfil_novo
 Default region name [None]: us-east-1
 Default output format [None]: json
-```
-
-## Subir o LocalStack
-```bash
-docker compose up -d
 ```
 
 ## Compilar o binário
