@@ -17,17 +17,20 @@ newgrp docker
 ```
 ## aws configure
 
+```bash
 AWS Access Key ID [None]: fakeAccessKeyId
 AWS Secret Access Key [None]: fakeSecretAccessKey
 Default region name [us-east-1]: us-east-1
 Default output format [None]: json
-
+```
 ## aws configure --profile localstack
 
+```bash
 AWS Access Key ID [None]: nome_perfil_novo
 AWS Secret Access Key [None]: senha_perfil_novo
 Default region name [None]: us-east-1
 Default output format [None]: json
+```
 
 ## Subir o LocalStack
 ```bash
